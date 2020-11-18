@@ -1,0 +1,37 @@
+.todo {
+  background-color: #f1c47b9d;
+  border-radius: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+
+.todo__modal {
+  display: flex !important;
+  flex-direction: column;
+  padding: 20px 40px !important;
+}
+
+.todo__modal > h1 {
+  font-size: 1.7em;
+  margin-bottom: 15px !important;
+}
+
+.todo__updateTitle {
+  margin-bottom: 20px !important;
+}
+
+.todo__updateDate {
+  margin-bottom: 20px !important;
+}
+
+.MuiFormLabel-root,
+.Mui-focused,
+.MuiInputBase-root,
+.MuiButton-textPrimary {
+  color: #4e4232 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px #4e4232 solid !important;
+}

@@ -1,0 +1,49 @@
+.body {
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MuiFormLabel-root,
+.Mui-focused,
+.MuiInputBase-root {
+  color: #4e4232 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px #4e4232 solid !important;
+}
+
+.body__fields {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.body__inputField {
+  width: 250px;
+  margin-right: 20px !important;
+}
+
+.body__dateField {
+  width: 250px;
+}
+
+.body__button {
+  margin: 20px;
+  color: #4e4232 !important;
+}
